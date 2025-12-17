@@ -1,5 +1,5 @@
 # Ex.05 Book Front Cover Page Design
-## Date:
+## Date:17.12.2025
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -32,11 +32,42 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 ```
-INCLUDE YOUR PROGRM HERE
+BookCover.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="cover">
+        <h1 style="font-size: 50px; margin-top: 100px;">Whispers Beneath the Lavender Sky</h1>
+        <h2 style="font-size: 30px; margin-top: 50px;">by Athreya</h2>
+    
+    </div>
+</body>
+</html>
+
+style.css
+
+#cover{
+    margin: auto;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background-image: url(Background.jpg) ;
+    background-repeat: no-repeat;
+
+}
 ```
 
 ## OUTPUT:
 
-
+![alt text](<Screenshot (143).png>)
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
