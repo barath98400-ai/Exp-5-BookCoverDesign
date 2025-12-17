@@ -1,0 +1,10 @@
+#cover{
+    margin: auto;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background-image: url(Background.jpg) ;
+    background-repeat: no-repeat;
+
+}
